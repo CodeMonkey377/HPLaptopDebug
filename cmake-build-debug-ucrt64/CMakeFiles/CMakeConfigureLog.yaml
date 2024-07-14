@@ -587,3 +587,57 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "glfw-3.4/src/CMakeLists.txt:274 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "C:/Users/Josep/CLionProjects/OpenGLTest/cmake-build-debug-ucrt64/CMakeFiles/CMakeScratch/TryCompile-6quk3e"
+      binary: "C:/Users/Josep/CLionProjects/OpenGLTest/cmake-build-debug-ucrt64/CMakeFiles/CMakeScratch/TryCompile-6quk3e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-static"
+      CMAKE_MODULE_PATH: "C:/Users/Josep/CLionProjects/OpenGLTest/glfw-3.4/CMake/modules"
+    buildResult:
+      variable: "DINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Josep/CLionProjects/OpenGLTest/cmake-build-debug-ucrt64/CMakeFiles/CMakeScratch/TryCompile-6quk3e
+        
+        Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_c4497 && [1/2] C:\\msys64\\ucrt64\\bin\\cc.exe    -o CMakeFiles/cmTC_c4497.dir/CheckIncludeFile.c.obj -c C:/Users/Josep/CLionProjects/OpenGLTest/cmake-build-debug-ucrt64/CMakeFiles/CMakeScratch/TryCompile-6quk3e/CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\cc.exe  -static CMakeFiles/cmTC_c4497.dir/CheckIncludeFile.c.obj -o cmTC_c4497.exe -Wl,--out-implib,libcmTC_c4497.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "glfw-3.4/src/CMakeLists.txt:275 (check_include_file)"
+    checks:
+      - "Looking for xinput.h"
+    directories:
+      source: "C:/Users/Josep/CLionProjects/OpenGLTest/cmake-build-debug-ucrt64/CMakeFiles/CMakeScratch/TryCompile-kqkg4k"
+      binary: "C:/Users/Josep/CLionProjects/OpenGLTest/cmake-build-debug-ucrt64/CMakeFiles/CMakeScratch/TryCompile-kqkg4k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-static"
+      CMAKE_MODULE_PATH: "C:/Users/Josep/CLionProjects/OpenGLTest/glfw-3.4/CMake/modules"
+    buildResult:
+      variable: "XINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Josep/CLionProjects/OpenGLTest/cmake-build-debug-ucrt64/CMakeFiles/CMakeScratch/TryCompile-kqkg4k
+        
+        Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_f4e6e && [1/2] C:\\msys64\\ucrt64\\bin\\cc.exe    -o CMakeFiles/cmTC_f4e6e.dir/CheckIncludeFile.c.obj -c C:/Users/Josep/CLionProjects/OpenGLTest/cmake-build-debug-ucrt64/CMakeFiles/CMakeScratch/TryCompile-kqkg4k/CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\cc.exe  -static CMakeFiles/cmTC_f4e6e.dir/CheckIncludeFile.c.obj -o cmTC_f4e6e.exe -Wl,--out-implib,libcmTC_f4e6e.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
