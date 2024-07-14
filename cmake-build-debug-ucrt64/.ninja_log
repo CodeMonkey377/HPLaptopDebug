@@ -1,0 +1,4 @@
+# ninja log v5
+12	658	7426349316286059	CMakeFiles/OpenGLTest.dir/main.cpp.obj	1717f0f63456be1f
+2	5915	7426349368817426	CMakeFiles/OpenGLTest.dir/glad.c.obj	47e2c4f8b25ad972
+5918	6118	7426349370768602	OpenGLTest.exe	cdf031046b3d0dfd
